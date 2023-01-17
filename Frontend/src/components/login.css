@@ -1,0 +1,113 @@
+.h-100{
+    height: 110vh!important;
+}
+.grey{
+ background-color: #a7a791;
+ height: 80vh;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+.align-center{
+    align-items: center;
+}
+.form{
+    width: 50%;
+    height: 60%;
+    background-color: #ecdbc8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgb(128, 128, 254);
+
+    justify-content: center;
+}
+.form>input{
+    width: 70%;
+    height: 2rem;
+    margin: 10px;
+    font-size: larger;
+    padding: 3px;
+    border:1px solid rgb(128, 128, 254);
+
+}
+.form>.label{
+   width: 70%;
+   float: right;
+   font-weight: 600;
+   font-size: large;
+}
+.m-3{
+ margin: 20px;
+}
+.btn-green{
+    background-color: #78971c;
+    color: white;
+    border: 1px solid white;
+    width: 12rem;
+    padding: 10px;
+}
+
+/* admin */
+
+.grid-admin{
+    display: flex;
+    flex-direction: row;
+}
+.admin-form{
+    margin: 1rem;
+    height: 80vh;
+    width: 100%;
+}
+.w-100{
+    width: 100%!important;
+    /* height: 100% !important; */
+}
+.h-20{
+    height: 20%;
+}
+.h-80{
+    height: 80%;
+}
+.h-91{
+    height: 91%;
+}
+.mb-1{
+    margin-bottom: 10px;
+}
+.mt-1{
+    margin-top: 10px;
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-form>label{
+    font-size: larger;
+    margin: 5px;
+}
+.input-form>input{
+    height: 1.7rem;
+    font-size: large;
+
+}
+.input-form>div>input{
+    height: 1.7rem;
+    font-size: large;
+}
+/* */
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.search-admin>.search>.search-input{
+ height: 2.5rem;
+ width: 20rem;
+ font-size: large;
+}
+.book>.info{
+    width: 38%;
+}

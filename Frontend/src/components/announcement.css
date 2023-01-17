@@ -1,0 +1,22 @@
+.announce{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    max-height: 26rem;
+    justify-content: center;
+
+}
+.announce>.description{
+    overflow-y: auto;
+    max-height: 140px;
+    height: 5rem;
+    margin: 0.5rem!important;
+}
+
+.overflow{
+    overflow-y: auto;
+}
+.announce-form{
+    justify-content:space-between;
+}

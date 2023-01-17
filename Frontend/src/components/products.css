@@ -1,0 +1,42 @@
+.main{
+    background-color: #a7a791;
+    width: 100%;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    min-height: 78vh;
+
+}
+.green{
+    background-color: #78971c;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid rgb(128, 128, 254);
+}
+.product{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ecdbc8;
+    padding: 2rem;
+    border: 2px solid rgb(128, 128, 254);
+    margin: 1.3rem;
+}
+.product>img{
+    height: 12rem;
+    width: 10rem;
+}
+.product>div{
+    font-size: larger;
+    font-weight: 600;
+    margin: 1.3rem;
+}
+.product>div>div{
+    padding: 5px;
+}
+.pointer{
+    cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.container::before {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('https://media.istockphoto.com/id/1185081312/photo/library-background-from-white-bookshelves-with-books-and-textbooks-learning-and-education.jpg?b=1&s=170667a&w=0&k=20&c=dWhlZ5spn39-1Jb7Oq4pd7VWt1YBSSLbo5Dgb5-1P7o=');
+    z-index: -1;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.container {
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.search-input {
+    height: 4rem;
+    width: 24rem;
+    font-size: xx-large ;
+}
+
+.btn {
+    font-family: 'Open Sans', sans-serif;
+    font-size: larger;
+    cursor: pointer;
+
+
+}
+
+.btn-search {
+    background-color: #78971c;
+    color: white;
+    border: 2px solid white;
+    padding: 23px;
+    width: 10rem;
+    margin-left: 4rem;
+}
+
+.products {
+    width: 80%;
+}
+
+.home {
+    overflow-y: auto;
+}
+
+.allbooks {
+    overflow-y: auto;
+    width: 80%;
+}
+
+.book {
+    display: flex;
+    background-color: white;
+    width: 99%;
+    max-height: 10rem;
+    height: 10rem;
+    overflow-y: auto;
+    border: 2px solid rgb(128, 128, 254);
+
+}
+.info>p{
+    width: 100%;
+}
+.book>img {
+    width: 30%;
+}
+
+.btn-rm{
+    height: 20%;
+    align-self: center;
+    margin-right: 4px;
+    padding: 4px;
+}
